@@ -6,7 +6,6 @@ dist
 README.md
 Dockerfile
 docker-compose.yml
-nginx.conf
 .editorconfig
 .gitignore
 package-lock.json
