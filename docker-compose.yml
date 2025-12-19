@@ -1,0 +1,13 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dsp-frontend
+    restart: unless-stopped
+    networks:
+      - web-proxy
+
+networks:
+  web-proxy:
+    external: true

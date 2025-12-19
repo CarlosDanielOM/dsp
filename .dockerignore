@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.idx
+.vscode
+README.md
+Dockerfile
+docker-compose.yml
+nginx.conf
+.editorconfig
+.gitignore
+package-lock.json
